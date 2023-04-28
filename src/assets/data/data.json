@@ -1,0 +1,28 @@
+{
+    "name":"Cristian Soplan",
+    "backImage":"",
+    "image":"",
+    "position":"Informatico",
+    "company":{
+        "name":"",
+        "img":"",
+        "url":"#"
+    },
+    "school":{
+        "name":"Yo programo",
+        "img":"",
+        "url":"#"
+    },
+    "ubicacion":"Charata-Chaco",
+    "about": "Estudiante de Programacion",
+    "experience":[{
+        "position":"backdeveloper",
+        "company":"",
+        "img":"",
+        "mode":"jornada parcial",
+        "start":"",
+        "end":""
+        }]
+
+
+}

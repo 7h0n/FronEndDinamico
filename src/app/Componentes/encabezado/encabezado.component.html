@@ -1,7 +1,7 @@
 <div class="card mat-card" id="first-card">
     <div id="profile-background">
        <img 
-       src="C:\Users\crist\OneDrive\Escritorio\Tareas WebStackJr\modulo II\Maqueteado\Maqueteado-\banner.jpg"
+       [src]="miPorfolio.backImage"
        />
     </div>
     <div id="info" style="padding: 16px;"></div>
@@ -17,10 +17,10 @@
        </div>
     <div id="info-data">
        <div>
-     <h1>Cristian Soplan</h1>
-     <div id="info-company"> Programador WebStackJr </div>
+     <h1>{{miPorfolio.name}}</h1>
+     <div id="info-company"> {{miPorfolio.position}}</div>
              <div id="info-contact">
-                   <span> Charata-Chaco(Argentina) </span>
+                   <span> {{miPorfolio.ubication}} </span>
                     <span> <a href="#"> Informacion de contacto </a></span>
               </div>
          </div>
